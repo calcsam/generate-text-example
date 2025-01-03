@@ -1,6 +1,6 @@
-import { Mastra } from '@mastra/core/dist/core.esm.js';
+import { Mastra } from '@mastra/core';
 
-const mastra = new Mastra({});
+const mastra = new Mastra();
 
 const llm = mastra.LLM({
   provider: 'OPEN_AI',
